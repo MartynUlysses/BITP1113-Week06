@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ScoreGrade/ScoreGrade.vcxproj" Id="1d9d1bfb-4324-47be-9fdf-4f8947899407" />
+  <Project Path="WorkingDays/WorkingDays.vcxproj" Id="a1c46f09-5a5e-410a-8f8a-2e077c27cc90" />
+</Solution>
