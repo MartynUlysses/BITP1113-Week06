@@ -6,15 +6,14 @@
 using namespace std;
 
 //function prototype
-int getScore(); char getGrade(int); void average(int, char);
+int getScore(); char getGrade(int); void average(int, char); void display();
 
 //main function
 int main () {
 	int i, score = 0; char grade;
 
 	cout << "Find Average for 5 Scores" << endl;
-	cout << setfill('-') << setw(30) << "" << endl;
-	cout << setw(30) << "" << setfill(' ') << endl;
+	display();
 
 	for (i = 0; i < 5; i++) {
 		score += getScore();
@@ -26,13 +25,20 @@ int main () {
 
 	average(score, grade);
 
-	cout << setfill('-') << setw(30) << "" << endl;
-	cout << setw(30) << "" << setfill(' ') << endl;
+	display();
 
 	return 0;
 }
 
 //function definition
+
+void display() {
+	cout << setfill('-') << setw(30) << "" << endl;
+	cout << setw(30) << "" << setfill(' ') << endl;
+	return;
+}
+
+
 int getScore() {
 	int score;
 	cout << "Enter score: ";
