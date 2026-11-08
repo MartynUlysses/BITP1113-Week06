@@ -19,7 +19,7 @@ int main () {
 		score += getScore();
 	}
 
-	score = round(score / 5);
+	score = round(score / 5.0);
 
 	grade = getGrade(score);
 
